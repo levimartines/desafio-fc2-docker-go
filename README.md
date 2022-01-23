@@ -1,5 +1,14 @@
 # Desafio Docker Full Cycle 2.0
 
+Execute o comando
+```
+docker run levimartines/codeedu-rocks-go
+```
+
+## Dockerhub
+
+[Code Education Rocks!](https://hub.docker.com/repository/docker/levimartines/codeedu-rocks-go)
+
 ## Desafio Go
 
 Esse desafio é muito empolgante principalmente se você nunca trabalhou com a linguagem Go!
@@ -33,8 +42,3 @@ Para criar a imagem, o comando
 docker build -t nomedaimagem:tag .
 ```
 
-Para rodar a imagem ja no dockerhub
-
-```
-docker run levimartines/codeedu-rocks-go
-```
