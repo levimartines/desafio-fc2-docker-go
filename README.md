@@ -30,7 +30,7 @@ Divirta-se
 
 ## Sobre o desafio
 
-Antes de criar a imagem, é necessário compilar a aplicação com o comando
+Para de compilar o codigo, use o comando
 
 ```
 go build main.go
