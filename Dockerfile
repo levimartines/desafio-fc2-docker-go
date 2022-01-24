@@ -1,7 +1,9 @@
-FROM scratch
-
-COPY ./main /app/main
-
+FROM golang:alpine AS builder
+COPY ./main.go /app/main.go
 WORKDIR /app
+RUN go build main.go
 
+FROM scratch
+COPY --from=builder /app/main /app/main
+WORKDIR /app
 CMD ["./main"]
