@@ -2,12 +2,12 @@
 
 Execute o comando
 ```
-docker run levimartines/codeedu-rocks-go
+docker run levimartines/codeeducation
 ```
 
 ## Dockerhub
 
-[Code Education Rocks!](https://hub.docker.com/repository/docker/levimartines/codeedu-rocks-go)
+[Code.education Rocks!](https://hub.docker.com/repository/docker/levimartines/codeeducation)
 
 ## Desafio Go
 
